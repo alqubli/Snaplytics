@@ -1,0 +1,21 @@
+# Exported from Render on 2026-02-04T06:13:18Z
+version: "1"
+projects:
+- name: My project
+  environments:
+  - name: Production
+    services:
+    - type: web
+      name: Snaplytics
+      runtime: python
+      repo: https://github.com/alqubli/Snaplytics
+      plan: free
+      region: frankfurt
+      buildCommand: npm install
+      startCommand: npm start
+      autoDeployTrigger: "off"
+      rootDir: Node
+
+git add render.yaml
+git commit -m "Add render.yaml"
+git push

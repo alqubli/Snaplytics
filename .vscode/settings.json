@@ -2,5 +2,7 @@
     "workbench.editor.centeredLayoutFixedWidth": true,
     "github.copilot.chat.debugTerminalCommandPatterns": [
         ""
-    ]
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": []
 }
