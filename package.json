@@ -1,0 +1,10 @@
+{
+  "name": "snaplytics",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node backend/index.js"
+  },
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
