@@ -1,0 +1,34 @@
+{pkgs}: {
+  deps = [
+    pkgs.libint
+    pkgs.rPackages.annotatr
+    pkgs.sutils
+    pkgs.python39Packages.pysma
+    pkgs.vimPlugins.vim-dadbod-completion
+    pkgs.emacs27Packages.json-navigator
+    pkgs.haskellPackages.network-data
+    pkgs.rPackages.dotwhisker
+    pkgs.haskellPackages.gen-passwd
+    pkgs.rPackages.Rvmmin
+    pkgs.rPackages.d3Network
+    pkgs.rPackages.gamlss_data
+    pkgs.linuxPackages-libre.mwprocapture
+    pkgs.haskellPackages.nonemptymap
+    pkgs.postgresql13Packages.tds_fdw
+    pkgs.emacs27Packages.evil-visual-mark-mode
+    pkgs.linuxPackages_4_19.x86_energy_perf_policy
+    pkgs.perl534Packages.CommonSense
+    pkgs.rPackages.LDRTools
+    pkgs.elastix
+    pkgs.quicklispPackagesSBCL.fiveam
+    pkgs.rustc
+    pkgs.haskellPackages.uuid-le
+    pkgs.python38Packages.qiskit-ibmq-provider
+    pkgs.k2pdfopt
+    pkgs.rPackages.ipr
+    pkgs.stripe-cli
+    pkgs.perl532Packages.TextWrapI18N
+    pkgs.rPackages.adnuts
+    pkgs.rPackages.bfw
+  ];
+}
