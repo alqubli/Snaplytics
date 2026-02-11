@@ -1,0 +1,32 @@
+{pkgs}: {
+  deps = [
+    pkgs.libsForQt5.shelf
+    pkgs.emacsPackages.laguna-theme
+    pkgs.moosefs
+    pkgs.rPackages.WLasso
+    pkgs.emacsPackages.avy-zap
+    pkgs.rPackages.compicc
+    pkgs.rPackages.sensitivity2x2xk
+    pkgs.gomuks
+    pkgs.python312Packages.linuxpy
+    pkgs.cosmic-comp
+    pkgs.perl540Packages.DateTimeFormatDateParse
+    pkgs.rPackages.tablerDash
+    pkgs.python312Packages.cleanlab
+    pkgs.rPackages.stylo
+    pkgs.rPackages.measures
+    pkgs.gatling
+    pkgs.xscreensaver
+    pkgs.rrsync
+    pkgs.rPackages.VFS
+    pkgs.rPackages.waspr
+    pkgs.rPackages.ShinyItemAnalysis
+    pkgs.haskellPackages.warp-static
+    pkgs.glasstty-ttf
+    pkgs.typstPackages.cheda-seu-thesis_0_3_3
+    pkgs.rPackages.SimSurvey
+    pkgs.rPackages.org_Rn_eg_db
+    pkgs.liferea
+    pkgs.rPackages.hydrostats
+  ];
+}
