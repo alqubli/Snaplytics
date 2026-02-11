@@ -1,7 +1,5 @@
-modules = ["dotnet-10.0", "dotnet-7.0", "dotnet-8.0"]
-[[ports]]
-localPort = 5000
-externalPort = 80
+[agent]
+expertMode = true
 
 [nix]
-packages = ["python39Packages.pysma", "sutils"]
+channel = "stable-25_05"
