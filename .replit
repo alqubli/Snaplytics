@@ -1,5 +1,7 @@
+modules = ["dotnet-10.0"]
 [agent]
 expertMode = true
 
 [nix]
 channel = "stable-25_05"
+packages = ["rPackages.hydrostats", "glasstty-ttf", "rPackages.org_Rn_eg_db", "rPackages.SimSurvey"]
